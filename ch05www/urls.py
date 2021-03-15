@@ -24,5 +24,5 @@ urlpatterns = [
     path('about/', views.about),
     path('about/<int:author_no>/', views.about),
     path('list/<int:yr>/<int:mon>/<int:day>/', views.listing),
-    path('post/<int:yr>/<int:mon>/<int:day>/<int:post_num>/', views.post, name = 'post-url'),
+    path('post/<int:yr>/<int:mon>/<int:day>/<int:post_num>/', views.post, name='post-url'),
 ]
